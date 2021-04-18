@@ -4,14 +4,16 @@ A large company with thousands of employees, called Pewlett Hackard, is looking 
 
 ## Results
 ### Number of Retiring Employees by Title
-[ADD SCREEN SHOOT HERE of retirint titles]
+<img width="180" alt="Screen Shot 2021-04-18 at 10 09 37 AM" src="https://user-images.githubusercontent.com/69849998/115148576-313db700-a02e-11eb-9ffa-59e5d417ff91.png">
+
 
 Process: A table of retirement titles data was created by left joining the titles csv to the employees csv, then filtering by birth dates between January 1, 1952-01-01 and December 31, 1955. Since this table showed duplicates of Employees who have held more than one title at PH, we used the statement 'DISTINCT ON()' to remove these duplicates and show only the most recent title an employee held. This was saved as the table 'Unique Titles'. Finally, the "GROUP BY" statement to group by title, and the COUNT statement to determine the count by title - this information was saved to the 'Retiring Titles' table. 
 * The 'Unique Titles' table demonstrates there are 903,89 employees who nearing retirement in the upcoming years
  * The title with the most employees retiring in the near future is Senior Engineer, with a count of 29,414, followed closely by Senior Staff at 28,254. 
 
 ### Employees Eligible for the Mentorship Program
-[ADD SCREEN SHOOT HERE of mentorship eligibility]
+<img width="515" alt="Screen Shot 2021-04-17 at 5 13 55 PM" src="https://user-images.githubusercontent.com/69849998/115148583-3c90e280-a02e-11eb-927c-043b4ea3fecb.png">
+
 
 Process: The employee and titles CSV data were combined to one table 'Mentorship Eligibility' using an innner join, then filtered for employees born between January 1, 1965 and December 31, 1965. 
 
