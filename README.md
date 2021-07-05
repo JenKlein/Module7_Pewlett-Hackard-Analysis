@@ -1,4 +1,4 @@
-# Module7_Pewlett-Hackard-Analysis
+# SQL_Pewlett-Hackard-Analysis
 ## Overview
 Pewlett Hackard (PH), a large company with thousands of employees, has a number of employees nearing retirement. Pewlett Hackard is looking ahead to prepare for the mass upcoming retirement, to financially plan for retirement packages, forecast how many roles will need to be filled, and ensure knowledge and skills are passed on prior to the departure of the retiring employees. The objective of this analysis was to determine the number of retiring employees per title, how many of those positions will need to be filled and identifying employees who are eligible to participate in a mentorship program. This analysis was performed using 6 csv files uploaded to SQL database as tables. 
 
