@@ -2,7 +2,7 @@
 ## Overview
 Pewlett Hackard (PH), a large company with thousands of employees, has a number of employees nearing retirement. Pewlett Hackard is looking ahead to prepare for the mass upcoming retirement, to financially plan for retirement packages, forecast how many roles will need to be filled, and ensure knowledge and skills are passed on prior to the departure of the retiring employees. The objective of this analysis was to determine the number of retiring employees per title, how many of those positions will need to be filled and identifying employees who are eligible to participate in a mentorship program. This analysis was performed using 6 csv files uploaded to SQL database as tables. Below is an Entity Relationship Diagram of the 6 different CSV files as well as their primary and foreign keys. 
 
-{INSERT ERD screenshot}
+![EmployeeDB](https://user-images.githubusercontent.com/69849998/125320758-0223a280-e30a-11eb-8e80-abcb139ef411.png)
 
 ### Tools
 * PostgreSQL
@@ -10,7 +10,7 @@ Pewlett Hackard (PH), a large company with thousands of employees, has a number 
 ## Results
 ### Number of Retiring Employees by Title
 #### Retirement Titles Table
-[INSERT RETIREMENT TITLES SCREENSHOT]
+<img width="427" alt="Screen Shot 2021-07-12 at 12 10 17 PM" src="https://user-images.githubusercontent.com/69849998/125320883-21bacb00-e30a-11eb-8c43-30d3609b52d8.png">
 
 The 'Retirement Titles' table holds all the titles of current employees born between January 1, 1952 and December 31, 1955 - the birth date of employees the company has deemed likely to be nearing retirement. This table was created by left-joining the titles table to the employees table, then filtering by birth dates between January 1, 1952 and December 31, 1955. 
 
