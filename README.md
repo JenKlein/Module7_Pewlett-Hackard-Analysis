@@ -15,15 +15,14 @@ Pewlett Hackard (PH), a large company with thousands of employees, has a number 
 The 'Retirement Titles' table holds all the titles of current employees born between January 1, 1952 and December 31, 1955 - the birth date of employees the company has deemed likely to be nearing retirement. This table was created by left-joining the titles table to the employees table, then filtering by birth dates between January 1, 1952 and December 31, 1955. 
 
 #### Unique Titles Table
-[INSERT SCREENSHOT OF UNIQUE TITLES]
+<img width="199" alt="Screen Shot 2021-07-12 at 12 11 47 PM" src="https://user-images.githubusercontent.com/69849998/125321183-6d6d7480-e30a-11eb-99fc-7f3fc62aa36d.png">
 
 The 'Retirement Titles' table showed duplicates of Employees who have held more than one title at PH, so the 'Unique Titles' table was created using the statement 'DISTINCT ON()' to remove these duplicates and show only the most recent title an employee held. This was saved as the table 'Unique Titles'. 
 
 The 'Unique Titles' table demonstrates there are 903,89 employees who nearing the age of retirement.
 
 #### Retiring Titles Table
-[INSERT SCREENSHOT OF Retiring TITLES]
-
+<img width="164" alt="Screen Shot 2021-07-12 at 12 13 10 PM" src="https://user-images.githubusercontent.com/69849998/125321284-89711600-e30a-11eb-8f62-62961df0b4c0.png">
 
 To determine the count of each title, the 'GROUP BY' statement and the 'COUNT' statement were applied to the 'Unique Titles' table to group and count the titles of retiring employees - this information was saved to the 'Retiring Titles' table. 
 
@@ -31,7 +30,7 @@ The title with the most employees retiring in the near future is Senior Engineer
 
 ### Employees Eligible for the Mentorship Program
 #### Mentorship Eligibility Table
-[INSERT SCREENSHOT]
+<img width="515" alt="Screen Shot 2021-07-12 at 12 13 55 PM" src="https://user-images.githubusercontent.com/69849998/125321406-a3aaf400-e30a-11eb-8181-2f264c6914fa.png">
 
 The 'Mentorship Eligibility' table holds the employee information of current employees who were born between January 1, 1965 and December 31, 1965 - the birthdate of employees who will be eligible candidates to mentor more junior employees before they retire. This table was created by inner-joining the employee and titles tables, then filtering for employees born between January 1, 1965 and December 31, 1965. 
 
